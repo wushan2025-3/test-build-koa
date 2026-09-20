@@ -1,1 +1,12 @@
-{"name":"test-koa","private":true,"dependencies":{"koa":"^2"}}
+{
+  "name": "test-koa",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step needed for Koa'"
+  },
+  "dependencies": {
+    "koa": "^2"
+  }
+}
